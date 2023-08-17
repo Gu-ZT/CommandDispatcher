@@ -1,7 +1,7 @@
 from typing import Generic, Dict, Any, Type as Class, TypeVar
 
-from command.command_source import S
-from command.exceptions import IllegalArgumentException
+from command_dispatcher.command_source import S
+from command_dispatcher.exceptions import IllegalArgumentException
 
 T = TypeVar('T')
 

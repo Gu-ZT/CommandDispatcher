@@ -1,11 +1,11 @@
 from typing import Any, Generic
 
-from command.command_context import CommandContext
-from command.arguments.argument_type import ArgumentType
-from command.nodes.command_node import CommandNode
-from command.nodes.argument_command_node import ArgumentCommandNode
-from command.nodes.literal_command_node import LiteralCommandNode
-from command.command import S
+from command_dispatcher.command_context import CommandContext
+from command_dispatcher.arguments.argument_type import ArgumentType
+from command_dispatcher.nodes.command_node import CommandNode
+from command_dispatcher.nodes.argument_command_node import ArgumentCommandNode
+from command_dispatcher.nodes.literal_command_node import LiteralCommandNode
+from command_dispatcher.command import S
 
 
 class CommandManager(Generic[S]):

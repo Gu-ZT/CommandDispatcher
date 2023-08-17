@@ -1,8 +1,8 @@
 from typing import Generic, List, TypeVar
-from command.command_source import S
-from command.command import Command
-from command.command_context import CommandContext
-from command.exceptions import IllegalCommandException
+from command_dispatcher.command_source import S
+from command_dispatcher.command import Command
+from command_dispatcher.command_context import CommandContext
+from command_dispatcher.exceptions import IllegalCommandException
 
 T = TypeVar('T', bound='CommandNode')
 

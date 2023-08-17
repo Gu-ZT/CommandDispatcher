@@ -1,5 +1,5 @@
-from command.arguments.argument_type import ArgumentType
-from command.exceptions import ArgumentException
+from command_dispatcher.arguments.argument_type import ArgumentType
+from command_dispatcher.exceptions import ArgumentException
 
 
 class BoolArgumentType(ArgumentType[bool]):

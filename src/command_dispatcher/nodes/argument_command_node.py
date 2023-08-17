@@ -1,10 +1,10 @@
 from typing import TypeVar
 
-from command.nodes.command_node import CommandNode
-from command.command_context import CommandContext
-from command.arguments.argument_type import ArgumentType
-from command.exceptions import ArgumentException
-from command.command_source import S
+from command_dispatcher.nodes.command_node import CommandNode
+from command_dispatcher.command_context import CommandContext
+from command_dispatcher.arguments.argument_type import ArgumentType
+from command_dispatcher.exceptions import ArgumentException
+from command_dispatcher.command_source import S
 
 T = TypeVar('T')
 

@@ -1,6 +1,6 @@
 from typing import Callable, Coroutine, Any
 
-from command.command_source import S
-from command.command_context import CommandContext
+from command_dispatcher.command_source import S
+from command_dispatcher.command_context import CommandContext
 
 Command = Callable[[CommandContext[S]], Coroutine[Any, Any, Any]]

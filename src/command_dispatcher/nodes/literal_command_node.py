@@ -1,6 +1,6 @@
-from command.command_source import S
-from command.nodes.command_node import CommandNode
-from command.command_context import CommandContext
+from command_dispatcher.command_source import S
+from command_dispatcher.nodes.command_node import CommandNode
+from command_dispatcher.command_context import CommandContext
 
 
 class LiteralCommandNode(CommandNode[S, 'LiteralCommandNode']):

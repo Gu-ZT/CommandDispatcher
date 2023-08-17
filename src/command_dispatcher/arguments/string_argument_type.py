@@ -1,4 +1,4 @@
-from command.arguments.argument_type import ArgumentType
+from command_dispatcher.arguments.argument_type import ArgumentType
 
 
 class StringArgumentType(ArgumentType[str]):
